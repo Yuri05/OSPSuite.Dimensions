@@ -233,6 +233,17 @@
         <Unit name="l/(kg/(dm*min²))" factor="1" visible="0" />
       </Units>
     </Dimension>
+    <Dimension name="Compliance (Area)" baseUnit="dm²/(kg/(dm*min²))" defaultUnit="cm²/mmHg">
+      <BaseRepresentation lengthExponent="3" massExponent="-1" timeExponent="2" electricCurrentExponent="0" temperatureExponent="0" amountExponent="0" luminousIntensityExponent="0" />
+      <Units>
+        <Unit name="cm²/mmHg" factor="1E-1/(133.3223684*60*60)" />
+        <Unit name="cm²/Pa" factor="1E-1/(60*60)" />
+        <Unit name="cm²/(N/m²)" factor="1E-1/(60*60)" />
+        <Unit name="cm²/(dyn/cm²)" factor="1/(60*60)" />
+        <Unit name="cm²/(kg/(m*s²))" factor="1E-1/(60*60)" />
+        <Unit name="dm²/(kg/(dm*min²))" factor="1" visible="0" />
+      </Units>
+    </Dimension>
     <Dimension name="Count" baseUnit="x10^6" defaultUnit="x10^6">
       <BaseRepresentation lengthExponent="0" massExponent="0" timeExponent="0" electricCurrentExponent="0" temperatureExponent="0" amountExponent="0" luminousIntensityExponent="0" />
       <Units>
