@@ -5,7 +5,7 @@
     <Dimension name="Abundance per mass protein" baseUnit="µmol/kg mic. protein" defaultUnit="pmol/mg mic. protein">
       <BaseRepresentation lengthExponent="0" massExponent="-1" timeExponent="0" electricCurrentExponent="0" temperatureExponent="0" amountExponent="1" luminousIntensityExponent="0" />
       <Units>
-        <Unit name="pmol/mg mic. protein" factor="1" />
+        <Unit name="pmol/mg mic. protein" factor="1000" />
         <Unit name="nmol/mg mic. protein" factor="1e3" />
         <Unit name="µmol/mg mic. protein" factor="1e6" />
         <Unit name="µmol/kg mic. protein" factor="1" visible="0" />
